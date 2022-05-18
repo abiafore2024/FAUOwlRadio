@@ -4,19 +4,43 @@
   <title>Staff</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="stylestaff.css">
-  <style>
+   <style>
+    /* Add a teal background color to the top navigation */
+.topnav {
+  background-color: #5dbab6;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #2fa8a3;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00A19D;
+  color: white;
+}
     </style>
 </head>
 <body>
   <p> <strong> FAU OWL RADIO </strong>
   </p>
-  <table id = "nav-table">
-    <tr>
-      <td id = "nav-table"> <a href = "home.html">Home</a> </td>
-      <td id = "nav-table"> <a href = "about.html">About Us</a> </td>
-      <td id = "nav-table"> <a href = "staff.html">Our Staff</a> </td>
-      </tr>
-    </table>
+ <div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a class="active" href="staff.html">Our Staff</a>
 </body>
 </html>
 
