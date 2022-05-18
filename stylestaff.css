@@ -2,9 +2,6 @@ body {
   background-color: #FFF8E5;
   padding: 25px;
   font-family: sans-serif;
-
-  #nav-table { width: 1280px; }
-  #nav-td {width: 254px; text-align:center;}
 }
     /* Add a teal background color to the top navigation */
 .topnav {
