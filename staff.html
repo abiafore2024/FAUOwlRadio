@@ -10,7 +10,7 @@
   background-color: #5dbab6;
   overflow: hidden;
 }
-
+    /* Nav Bar */
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -32,6 +32,8 @@
   background-color: #00A19D;
   color: white;
 }
+     
+    /* Advisor */
 /* Placement of Staff Pictures */
    .container_adv {
   position: relative;
@@ -58,6 +60,90 @@
 }
 
 .container_adv:hover .overlay_adv {
+  opacity: 1;
+}
+/* Text on Overlay */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  
+  /* Manager */
+  /* Placement of Staff Pictures */
+   .container_man {
+  position: relative;
+  width: 100%;
+}
+/* Staff Picture */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Faded Overlay on Picture */
+.overlay_man {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFB344;
+}
+
+.container_man:hover .overlay_man {
+  opacity: 1;
+}
+/* Text on Overlay */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  
+  /* Worker 1 */
+  /* Placement of Staff Pictures */
+   .container_work1 {
+  position: relative;
+  width: 100%;
+}
+/* Staff Picture */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Faded Overlay on Picture */
+.overlay_work1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFB344;
+}
+
+.container_work1:hover .overlay_work1 {
   opacity: 1;
 }
 /* Text on Overlay */
