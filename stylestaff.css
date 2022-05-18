@@ -6,3 +6,164 @@ body {
   #nav-table { width: 1280px; }
   #nav-td {width: 254px; text-align:center;}
 }
+    /* Add a teal background color to the top navigation */
+.topnav {
+  background-color: #5dbab6;
+  overflow: hidden;
+}
+    /* Nav Bar */
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #2fa8a3;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00A19D;
+  color: white;
+}
+   /* Table */
+     .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+     table class = "center" id = "staff" {
+       
+     }
+     
+    /* Advisor */
+/* Placement of Staff Pictures */
+   .container_adv {
+  position: relative;
+  width: 100%;
+}
+/* Staff Picture */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Faded Overlay on Picture */
+.overlay_adv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFB344;
+}
+
+.container_adv:hover .overlay_adv {
+  opacity: 1;
+}
+/* Text on Overlay */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+     }  
+  
+  /* Manager */
+  /* Placement of Staff Pictures */
+   .container_man {
+  position: relative;
+  width: 100%;
+}
+/* Staff Picture */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Faded Overlay on Picture */
+.overlay_man {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFB344;
+}
+
+.container_man:hover .overlay_man {
+  opacity: 1;
+}
+/* Text on Overlay */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+  
+  /* Worker 1 */
+  /* Placement of Staff Pictures */
+   .container_work1 {
+  position: relative;
+  width: 100%;
+}
+/* Staff Picture */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Faded Overlay on Picture */
+.overlay_work1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFB344;
+}
+
+.container_work1:hover .overlay_work1 {
+  opacity: 1;
+}
+/* Text on Overlay */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
