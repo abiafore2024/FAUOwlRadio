@@ -62,7 +62,7 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #FFB344;
+  background-color: #ef292a;
 }
 
 .container_adv:hover .overlay_adv {
