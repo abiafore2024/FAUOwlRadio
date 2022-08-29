@@ -3,9 +3,9 @@ body {
   padding: 25px;
   font-family: sans-serif;
 }
-    /* Add a teal background color to the top navigation */
+    /* Add a blue background color to the top navigation */
 .topnav {
-  background-color: #5dbab6;
+  background-color: #04347a;
   overflow: hidden;
 }
     /* Nav Bar */
@@ -21,13 +21,13 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #2fa8a3;
+  background-color: #0d5ea5;
   color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #00A19D;
+  background-color: #0d5ea5;
   color: white;
 }
    /* Table */
