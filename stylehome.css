@@ -5,7 +5,7 @@ body {
 }
     /* Add a blue background color to the top navigation */
 .topnav {
-  background-color: #2596be;
+  background-color: #04347a;
   overflow: hidden;
 }
 
@@ -21,12 +21,12 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #abde3;
+  background-color: #0d5ea5;
   color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #00A19D;
+  background-color: #0d5ea5;
   color: white;
 }
